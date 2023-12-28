@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://siraka-app.github.io/docs/sitemap.xml

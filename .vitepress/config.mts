@@ -25,5 +25,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  sitemap: {
+    hostname: 'https://siraka-app.github.io/docs/'
+  },
 })
