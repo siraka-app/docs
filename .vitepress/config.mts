@@ -2,14 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/docs/",
   title: "SIRAKA",
   description: "Sistem Rapor Merdeka",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Daftar Gratis!', link: '/gratis' },
+      { text: 'Panduan', link: '/docs/index.html' },
+      // { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -17,9 +18,16 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          {
+            text: 'Customization Examples',
+            link: '/customization-examples',
+            items: [
+              { text: 'Layouts', link: '/customization-examples/layouts' },
+            ]
+          },
         ]
-      }
+      },
     ],
 
     socialLinks: [

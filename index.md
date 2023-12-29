@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: COBA GRATIS!
-      link: /markdown-examples
+      link: /gratis
     - theme: alt
       text: Pelajari
       link: /api-examples
